@@ -4,9 +4,43 @@ arr_of_ints2 = [1, 2, 3, 4, 5]
 # Your function should return true if any value appears at least twice in the array, 
 # and it should return false if every element is distinct.
 
+# U
+# array of integers 
+# identify if duplicate integers are in passed array
+# if yes, return true else return false
+
+# P
+# create empty dict to count how many times an int appears = {}
+# for item in dict:
+    # if item not in dict:
+        # set key to value 1 and to begin counting
+    # else:
+        # dict[value] += 1
+# if dict[value] < 2:
+    # return True
+# else:
+    # return False
+
+    
+
+# E
 def containsDuplicate(arr):
-    for i in arr:
-        print(i)
+    d = {}
+    for item in arr:
+        if item not in d:
+            d[item] = 1
+        else:
+            d[item] += 1
+    # if d[item] < 2:
+    #     return True
+    # else:
+    #     return False
+    return True if d[item] >= 2 else False
 
+print(containsDuplicate(arr_of_ints))
+# containsDuplicate(arr_of_ints)
 
-containsDuplicate(arr_of_ints)
+# R
+# convert final if else statement to a ternary statement
+# Double check instructions because i was returning true if there wasn't a duplicate. I had the results reversed.
+# Thankfully a simple/quick preventable fix
