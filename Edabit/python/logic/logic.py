@@ -28,3 +28,7 @@ print(add_11(3))
 # 8
 # 10
 # 14
+
+# Other solutions:
+# From Haksell (13,985 xp which is 2,797 challenges completed without spoilers)
+# for n in range(12):exec("add_%s=lambda x:x+%s"%(n,n))
