@@ -1,5 +1,5 @@
 # Given an array of integers, find if the array contains any duplicates.
-arr_of_ints = [1, 2, 3, 3, 4, 5, 5]
+arr_of_ints = [1, 2, 2, 3, 3, 4, 5]
 arr_of_ints2 = [1, 2, 3, 4, 5]
 # Your function should return true if any value appears at least twice in the array, 
 # and it should return false if every element is distinct.
@@ -24,20 +24,24 @@ arr_of_ints2 = [1, 2, 3, 4, 5]
     
 
 # E
-def containsDuplicate(arr):
+def containsDuplicate(nums):
     d = {}
-    for item in arr:
+    for item in nums:
         if item not in d:
             d[item] = 1
         else:
-            d[item] += 1
-    # if d[item] < 2:
+            return True
+    return False
+    # if d[item] >= 2:
     #     return True
     # else:
     #     return False
-    return True if d[item] >= 2 else False
+    # for item in d:
+    #     if d[item] >= 2:
+    #         return True
+    # return False
 
-print(containsDuplicate(arr_of_ints))
+print(containsDuplicate(arr_of_ints2))
 # containsDuplicate(arr_of_ints)
 
 # R
