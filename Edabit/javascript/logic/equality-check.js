@@ -35,3 +35,6 @@ function checkEquality(a, b) {
 function checkEquality(a, b) {
     return ( a === b ? true : false )
 }
+
+// 1 line answer from user kewlceo
+const checkEquality = (a, b) => a === b; 

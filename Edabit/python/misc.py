@@ -18,3 +18,11 @@ no_missing_numbers = [1,2,3,4,5,6,7,8,9,10]
 # 
 # for elem in lst:
     # if elem 
+
+d = {
+    7: 21,
+    6: 22,
+    5: 23,
+}
+
+print(d[7])
