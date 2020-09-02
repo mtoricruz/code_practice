@@ -28,7 +28,6 @@ function firstDuplicate(arr) {
     return -1
 }
 
-console.log(firstDuplicate(a))
 
 // R
 // One thing that could've helped me solve this faster 
