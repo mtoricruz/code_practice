@@ -8,10 +8,6 @@ img = [[1, 2, 3],
      [4, 5, 6],
      [7, 8, 9]]
      
-    #  [[7, 8, 9], 
-    #   [4, 5, 6], 
-    #   [1, 2, 3]]
-# the output should be
 
 # rotateImage(a) =
 #     [[7, 4, 1],
@@ -21,20 +17,27 @@ img = [[1, 2, 3],
 # U 
 # 2d array of images
 # rotate clockwise, 90deg
-# 
-
-# P
-# loop through 2d arr
-# 
+# reverse arr
+# transpose the matrix
+# transposing is fliping a matrix over it's diagonal
+# take the reversed arr
+# [[7, 8, 9], 
+#  [4, 5, 6], 
+#  [1, 2, 3]]
+# transposing the arr results in
+#  [[7, 4, 1],
+#      /  /
+#   [8, 5, 2],
+#      /  /
+#   [9, 6, 3]]
+# swapping 4,8 / 1, 9 / 2, 6
 
 # E
 def rotateImage(a):
     a.reverse()
-    for i in range(len(a)):
-        for j in range(i):
-            print(a[i][j], 'a[i][j]')
-            print(a[j][i], 'a[j][i]')
-            # a[i][j], a[j][i] = a[j][i], a[i][j]
+    for row in range(len(a)):
+        for col in range(row):
+            a[i][j], a[j][i] = a[j][i], a[i][j]
     return a
 
 # R

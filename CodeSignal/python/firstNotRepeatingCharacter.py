@@ -28,18 +28,24 @@
 
 string = 'abacabad'
 
+# v
+# a b a c a b a d
+
 def firstNotRepeatingCharacter(s):
     d = {}
-    for letter in s:
-        if letter not in d:
-            d[letter] = 1
+    for char in s:
+        if char in d:
+            d[char] += 1
         else:
-            d[letter] += 1
-    for k, v in d.items():
-        if v == 1:
-            return k
-        else:
-            continue
+            d[char] = 1
+
+#   for idx in the range of s length
+    for i in range(len(s)):
+      # if the value of a key in d is 1
+        if d[s[i]] == 1:
+        #   return idx value of string
+            return s[i]
+  # return '_' if no unique characters        
     return '_'
 
 print(firstNotRepeatingCharacter(string))
