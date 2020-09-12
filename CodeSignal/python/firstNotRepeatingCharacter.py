@@ -18,7 +18,7 @@
 #       d[letter] = 1
 #   else:
 #       d[letter] += 1
-# for k, v in d:
+# for v in d:
 #   if v == 1:
 #       return k
 #   else:
@@ -40,6 +40,7 @@ def firstNotRepeatingCharacter(s):
             d[char] = 1
 
 #   for idx in the range of s length
+#   range makes integer iterable
     for i in range(len(s)):
       # if the value of a key in d is 1
         if d[s[i]] == 1:

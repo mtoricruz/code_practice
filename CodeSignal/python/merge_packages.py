@@ -1,10 +1,10 @@
-#        i  
-#        v  
+#           i  
+#           v  
 # idx =  0  1  2   3   4
 items = [4, 6, 10, 15, 16] 
-#              ^
-#              j
-# idx2 =       0    1   2
+# idx2 =       0   1   2
+#                  ^
+#                  j
 limit = 21
 
 def merge_packages(items, limit):
@@ -22,3 +22,8 @@ def merge_packages(items, limit):
     return []
 
 print(merge_packages(items, limit))
+
+# R
+# if j == diff:
+#   if i > j:
+#       return [idx + idx2 + 1, idx]
