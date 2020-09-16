@@ -12,8 +12,8 @@
 
 # Planning
 # initialize nums_list
-# while l != None:
-    # nums_list.append(l.value)
+# while SLL != None:
+    # nums_list.append(SLLnode.value)
     # l = l.next
 # result = nums_list == nums_list.reverse()
 # return result
