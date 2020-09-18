@@ -25,5 +25,5 @@ print(merge_packages(items, limit))
 
 # R
 # if j == diff:
-#   if i > j:
+#   if i < j:
 #       return [idx + idx2 + 1, idx]
