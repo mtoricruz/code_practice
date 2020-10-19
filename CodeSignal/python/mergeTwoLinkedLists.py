@@ -3,7 +3,12 @@
 # return combined into 1 SLL sorted in non-decreasing order
 # when combining list, change pointers to appropriate
 # node if l1 node > or < l2 node
-# 
+
+
+# (20) -> (19) -> (18) -> (17) -> (16) -> null
+
+
+# (20) -> (19) -> (18) -> (17) -> (16) -> null
 
 # Planning
 

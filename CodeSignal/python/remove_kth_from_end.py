@@ -1,8 +1,8 @@
 # k = 2
 
 # length = 5
-# count = 3
-#  h_n    h.nxt
+# count = 1
+#   h_n    h.nxt
 # (20) -> (19) -> (18) -> (17) -> (16) -> null
 
 def remove_kth_from_end(head, k):
