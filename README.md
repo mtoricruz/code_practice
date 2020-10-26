@@ -4,9 +4,9 @@ My official repo for all code challenge practice. Folders for each website I use
 I don't use every website each day so some profiles may be lackluster. The goal of this repo is to display the combined efforts spent across each code practice platform.
 
 # View My Profiles
-[CodeSignal](https://app.codesignal.com/profile/toricruz_m) - my primary practice website
-[Edabit](https://edabit.com/user/rAaxG3eQuXvvYh8xF)
-[LeetCode](https://leetcode.com/mtoricruz/)
+[CodeSignal](https://app.codesignal.com/profile/toricruz_m) - my primary practice website <br>
+[Edabit](https://edabit.com/user/rAaxG3eQuXvvYh8xF) <br>
+[LeetCode](https://leetcode.com/mtoricruz/) <br>
 
 # Connect with Me
 [LinkedIn](https://www.linkedin.com/in/toricruz-mendiola/)
