@@ -10,5 +10,5 @@ I don't use every website each day so some profiles may be lackluster. The goal 
 
 # Connect with Me
 [LinkedIn](https://www.linkedin.com/in/toricruz-mendiola/)
-## Email: toricruz.mendiola@gmail.com
 [My Resume](https://docs.google.com/document/d/1pD91b1BoVZxIngHFtgyhrlNq93962RvsRVuyT5UKOhs/edit?usp=sharing)
+#### Email: toricruz.mendiola@gmail.com
