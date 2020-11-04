@@ -11,7 +11,7 @@
     # 
 
 # Execute
-def findLongestSubarrayBySum(s, arr):
+# def findLongestSubarrayBySum(s, arr):
 
 # Refactor/Reflection
 def findLongestSubarrayBySum(s, arr):
