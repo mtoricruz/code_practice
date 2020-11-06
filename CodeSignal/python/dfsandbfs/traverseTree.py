@@ -36,8 +36,7 @@
 def traverseTree(t):
     if not t:
         return []
-    results = []
-    queue = [t]
+    results, queue = [], [t]
 
     while queue:
         v = queue.pop(0)
